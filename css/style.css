@@ -1,0 +1,190 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* Size */
+  --side-padding: 12px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+
+  /* Border Line */
+  --main-border: solid 1.8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #140a00;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo span {
+  color: #e0e0e0;
+  font-weight: 700;
+}
+
+.header__logo i {
+  color: #ff0000;
+}
+
+.header__icons i {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.hashtags {
+  display: flex;
+  font-size: 12px;
+  padding-left: 12px;
+  color: #045fd4;
+}
+
+.hashtags li {
+  padding: 0 3px;
+}
+
+.titleAndButton {
+  margin-left: 10px;
+  margin-right: 40px;
+  display: flex;
+  position: relative;
+}
+
+.moreBtn {
+  position: absolute;
+  right: -30px;
+  opacity: 0.5;
+}
+
+.titleAndButton__views .views {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-left: 12px;
+}
+
+button,
+button:focus {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.actions li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 px;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 10px 0;
+}
+
+.channel__metadata img {
+  border-radius: 30px;
+}
+
+.channel__metadata {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.channel__metadata .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.channel__metadata .info .name {
+  font-size: 16px;
+}
+
+.channel__metadata .info .subscribers {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.channel__subscribe {
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.upNext__title {
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+  left: 12px;
+  opacity: 0.8;
+}
+
+.upNext ul {
+  margin-left: 12px;
+  padding: 0;
+}
+
+.upNext__item {
+  display: flex;
+  margin: 20px 0;
+}
+
+.item__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__info .title {
+  font-size: 13px;
+}
+
+.item__info .name {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.item__info .views {
+  margin-left: 0;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.upNext__item .item__info {
+  margin-left: 12px;
+}
+
+.item__more {
+  position: relative;
+  top: -30px;
+}

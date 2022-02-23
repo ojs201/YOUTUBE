@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <script
+      src="https://kit.fontawesome.com/429f4a2ef7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__logo">
+        <i class="fab fa-youtube fa-lg"></i>
+        <span>Nabatube</span>
+      </div>
+      <div class="header__icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <iframe
+        width="100%"
+        height="315"
+        src="https://www.youtube.com/embed/PFeT8k2WTOQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- Video Info -->
+    <section class="info">
+      <!-- Metadata -->
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#Naba</li>
+          <li>#favorite</li>
+          <li>#BTS</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title"
+            >BTS (방탄소년단) JIMIN 'Promise (약속)' Lyrics</span
+          >
+          <button class="moreBtn">
+            <i class="fas fa-sort-down"></i>
+          </button>
+        </div>
+        <div class="titleAndButton__views">
+          <span class="views"> 1,182,395 views ㆍ 2020. 3. 14.</span>
+        </div>
+      </div>
+      <!-- Actions -->
+      <ul class="actions">
+        <li class="actions__list">
+          <button><i class="fas fa-thumbs-up fa-lg"></i></button>
+          <span>1k</span>
+        </li>
+        <li class="actions__list">
+          <button><i class="fas fa-thumbs-down fa-lg"></i></button>
+          <span>0</span>
+        </li>
+        <li class="actions__list">
+          <button><i class="fas fa-share fa-lg"></i></button>
+          <span>Share</span>
+        </li>
+        <li class="actions__list">
+          <button><i class="fas fa-plus fa-lg"></i></button>
+          <span>Save</span>
+        </li>
+        <li class="actions__list">
+          <button><i class="fab fa-font-awesome-flag fa-lg"></i></button>
+          <span>Report</span>
+        </li>
+      </ul>
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="channel__metadata">
+          <img src="screenshots/Jaeguchi.jpg" />
+          <div class="info">
+            <span class="name">Jaeguchi</span>
+            <span class="subscribers">3.1M subscribers</span>
+          </div>
+        </div>
+        <button class="channel__subscribe">SUBSCRIBE</button>
+      </div>
+    </section>
+
+    <section class="upNext">
+      <span class="upNext__title">Up Next</span>
+      <ul>
+        <li class="upNext__item">
+          <img src="screenshots/relative1.webp" width="130px" height="80px" />
+          <div class="item__info">
+            <span class="title">
+              [새벽시] ＂가슴 뛰는 하루하루야＂ 사는 게 귀찮다는 조이서에게
+              새로이가 해준 말
+            </span>
+            <span class="name">JTBC Voyage</span>
+            <span class="views">122,275 views</span>
+          </div>
+          <button class="item__more">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="upNext__item">
+          <img src="screenshots/relative2.webp" width="130px" height="80px" />
+          <div class="item__info">
+            <span class="title"
+              >[골라봐야지]((럽라시작인가요?♥)) 김다미 마음 흔들어놓고 자기 마음
+              눈치 못 채는 박서준</span
+            >
+            <span class="name">JTBC Voyage</span>
+            <span class="views">1.97M views</span>
+          </div>
+          <button class="item__more">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="upNext__item">
+          <img src="screenshots/relative3.webp" width="130px" height="80px" />
+          <div class="item__info">
+            <span class="title"
+              >[골라봐야지]((쓰담♥)) "책임을 못지니까 미성년자인 거야, 애송아"
+              남자마저 반하게 만든 박서준 존멋 모음</span
+            >
+            <span class="name">JTBC Voyage</span>
+            <span class="views">1.65M views</span>
+          </div>
+          <button class="item__more">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
