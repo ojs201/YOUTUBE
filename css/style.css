@@ -142,7 +142,8 @@ button:focus {
   margin-right: 10px;
 }
 
-.channel__subscribe:hover {
+.channel__subscribe:hover,
+.channel__subscribe:active {
   background-color: #909090;
 }
 
